@@ -1,0 +1,216 @@
+// @flow
+import { StyleSheet } from "aphrodite";
+import { Colors } from "../../theme";
+
+export default StyleSheet.create({
+  formCont: {
+    width: "60%",
+    margin: "50px auto",
+    "@media (max-width: 991px)": {
+      width: "100%",
+    },
+  },
+  bookingDesc: {
+    color: Colors.text.accent,
+    lineHeight: 1.47,
+  },
+  persDetailCont: {
+    marginTop: 30,
+  },
+  DetailsHead: {
+    fontSize: 20,
+    fontWeight: 600,
+    color: Colors.text.accent,
+  },
+  timeDetailCont: {
+    marginTop: 30,
+  },
+  formGroup: {
+    marginBottom: 10,
+  },
+  formControl: {
+    width: "100%",
+    maxWidth: "310px",
+    height: "42px",
+    display: "block",
+    // padding: ".375rem .75rem",
+    padding: "13px 0 13px 16px",
+    fontSize: "14px",
+    fontWeight: 400,
+    lineHeight: 1.5,
+    color: Colors.text.accent,
+    backgroundColor: Colors.white,
+    backgroundClip: "padding-box",
+    border: `solid 1px ${Colors.background.borderColor}`,
+    borderRadius: ".25rem",
+    transition: "border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+    ":focus": {
+      outline: 0,
+    },
+    "@media (max-width: 991px)": {
+      maxWidth: "100%",
+    },
+  },
+
+  phoneFormControl: {
+    width: "100%",
+    maxWidth: "310px",
+    height: "42px",
+    display: "flex",
+    // padding: ".375rem .75rem",
+    padding: "13px 0 13px 16px",
+    fontSize: "14px",
+    fontWeight: 400,
+    lineHeight: 1.5,
+    color: Colors.text.accent,
+    backgroundColor: Colors.white,
+    backgroundClip: "padding-box",
+    border: `solid 1px ${Colors.background.borderColor}`,
+    borderRadius: ".25rem",
+    transition: "border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+    ":focus": {
+      outline: 0,
+    },
+    "@media (max-width: 991px)": {
+      maxWidth: "100%",
+    },
+  },
+  serviceBox: {
+    border: `1px solid ${Colors.background.borderColor}`,
+    padding: "17px 15px 20px 20px",
+  },
+  boxInnerHead: {
+    fontWeight: 600,
+    color: Colors.text.accent,
+    marginBottom: 26,
+    lineHeight: 1.5,
+  },
+  serviceInnerBox: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    "@media (max-width: 1199px)": {
+      flexDirection: "column",
+    },
+  },
+  selectedService: {
+    border: `2px solid ${Colors.text.primary}`,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    height: 90,
+    width: 190,
+    padding: "25px 0 25px 18px",
+    color: Colors.text.primary,
+    cursor: "pointer",
+    "@media (max-width: 1199px)": {
+      width: 220,
+      marginTop: 15,
+    },
+  },
+  unSelectedService: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    height: 90,
+    width: 190,
+    border: `2px solid ${Colors.background.borderColor}`,
+    padding: "25px 0 25px 18px",
+    cursor: "pointer",
+    "@media (max-width: 1199px)": {
+      width: 220,
+      marginTop: 15,
+    },
+  },
+  serviceText: {
+    marginLeft: 18,
+    lineHeight: 1.31,
+  },
+  headingWrapper: {
+    display: "flex",
+    justifyContent: "space-between",
+  },
+  selectedPayment: {
+    border: `2px solid ${Colors.text.primary}`,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "flex-start",
+    padding: "14px 13px",
+    color: Colors.text.primary,
+    height: "auto",
+    cursor: "pointer",
+    lineHeight: 1.5,
+  },
+  unselectedPayment: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "flex-start",
+    height: "auto",
+    border: `2px solid ${Colors.background.borderColor}`,
+    padding: "14px 0 14px 13px",
+    cursor: "pointer",
+    margin: "8px 0",
+    lineHeight: 1.5,
+  },
+  formSubmitBtnContainer: {
+    display: "flex",
+    justifyContent: "flex-start",
+    alignItems: "center",
+    "@media (max-width: 767px)": {
+      justifyContent: "center",
+    },
+  },
+  sendBtn: {
+    border: "1px solid transparent",
+    borderRadius: 1,
+    height: 49,
+    width: 119,
+    color: Colors.white,
+    fontWeight: "bold",
+    background: Colors.background.green,
+  },
+  hasErrorBox: {
+    borderColor: Colors.red,
+  },
+  heading1: {
+    color: Colors.background.primary,
+    fontSize: 35,
+    fontWeight: "bold",
+    lineHeight: 1.21,
+    marginBottom: 10,
+    textTransform: "capitalize",
+  },
+
+  heading2: {
+    color: Colors.text.secondary,
+    fontSize: 28,
+    fontWeight: "bold",
+    lineHeight: 1.21,
+    marginBottom: 20,
+  },
+  backLink: {
+    width: 183,
+    height: 55,
+    background: Colors.text.primary,
+    borderRadius: 1,
+    border: "transparent",
+    color: Colors.white,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    fontSize: 16,
+    fontWeight: 600,
+    margin: "20px 0",
+    "@media (max-width: 600px)": {
+      width: 150,
+      fontSize: 14,
+      height: 40,
+    },
+  },
+  note: {
+    color: Colors.black,
+    fontSize: "13px",
+  },
+});

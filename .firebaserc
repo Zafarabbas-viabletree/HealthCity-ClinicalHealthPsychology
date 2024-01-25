@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "cbt-healthcity",
+    "chp-staging": "clinicalhealth-huk-staging",
+    "chp-prod": "clinicalhealth-huk-prod-8bfb1"
+  }
+}

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+:focus {
+  outline: none !important;
+}
